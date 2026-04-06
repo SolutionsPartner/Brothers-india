@@ -1122,6 +1122,8 @@ position: absolute;
   .related-grid { grid-template-columns: 1fr; }
   .stats-bar { padding: 20px 0; }
   .stat-num { font-size: 1.6rem; }
+   .Aboutcounter-grid { grid-template-columns: 1fr; }
+   .hero-content{margin-left: 0%;}
 }
 
 @media (max-width: 480px) {
