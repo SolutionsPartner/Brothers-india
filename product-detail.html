@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Detail - Brothers India Medical Equipment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span>📞 9523450371</span>
+        <span>✉️ brothersindia0371@gmail.com</span>
+      </div>
+      <div class="top-bar-right">
+        <span>GST: 20BUKPD0206N1Z3</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">BI</div>
+        <div class="logo-text">
+          <span class="brand">Brothers India</span>
+          <span class="tagline">Medical Equipment</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb-list">
+        <a href="products.html">Products</a>
+        <span>/</span>
+        <a href="#" id="bc-cat">ECG Paper</a>
+        <span>/</span>
+        <span id="bc-name">Product</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAIL -->
+  <section class="product-detail">
+    <div class="container">
+      <div class="product-detail-grid">
+        <div class="product-detail-img">
+          <img id="prod-img" src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80" alt="Product" loading="lazy">
+        </div>
+        <div class="product-detail-info">
+          <h1 id="prod-name">Comfortable TC20 ECG Paper</h1>
+          <p class="subtitle" id="prod-desc">Comfortable brand TC20 ECG paper with superior quality</p>
+
+          <div class="spec-table">
+            <h4>Specifications</h4>
+            <div id="spec-rows">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <div class="key-features">
+            <h4>Key Features</h4>
+            <ul class="feature-list" id="feature-list">
+              <!-- Populated by JS -->
+            </ul>
+          </div>
+
+          <div class="product-actions">
+            <a href="contact.html" class="btn btn-primary">Request Quote</a>
+            <a href="tel:9523450371" class="btn btn-outline-dark">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELATED PRODUCTS -->
+  <section class="related-products">
+    <div class="container">
+      <h2>More from <span id="related-title">ECG Paper</span></h2>
+      <div class="related-grid" id="related-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-icon">BI</div>
+            <div class="logo-text">
+              <span class="brand" style="color:#fff;">Brothers India</span>
+              <span class="tagline">Medical Equipment</span>
+            </div>
+          </div>
+          <p class="footer-desc">Your Trusted Partner in Medical Equipment</p>
+          <span class="footer-badge">🏅 5+ Years of Excellence</span>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Our Products</h5>
+          <div class="footer-links">
+            <a href="products.html">ECG Paper Roll</a>
+            <a href="products.html">ECG Paper</a>
+            <a href="products.html">Medical Cables</a>
+            <a href="products.html">Test Kits</a>
+            <a href="products.html">Hematology Analyzers</a>
+            <a href="products.html">Medical Reagents</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Contact Us</h5>
+          <div class="footer-contact">
+            <div class="footer-contact-item"><span class="icon">📍</span><span>Rani Bagan Jora Talab, Bariatu, Ranchi-834009, Jharkhand, India</span></div>
+            <div class="footer-contact-item"><span class="icon">📞</span><span>+91 6203610371,+91 9523450371</span></div>
+            <div class="footer-contact-item"><span class="icon">✉️</span><span>brothersindia0371@gmail.com</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <b>© 2026 Brothers India. All rights reserved. | Designed by Solution Partner | Established 2019</b>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    const SPECS = {
+      'ecg-paper-2': {
+        specs: [
+          { key: 'Size', val: 'TC20 standard' },
+          { key: 'Sheets Per Pack', val: '150 sheets' },
+          { key: 'Compatibility', val: 'TC20 machines' },
+          { key: 'Grid Type', val: 'Standard medical grid' },
+          { key: 'Paper Type', val: 'Thermal paper' },
+        ],
+        features: ['TC20 specific design', 'Smooth surface finish', 'Accurate grid printing', 'Jam-free operation', 'Value for money'],
+        img: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=700&q=80'
+      },
+      'ecg-paper-1': {
+        specs: [
+          { key: 'Size', val: 'GE Mac 2000 format' },
+          { key: 'Sheets Per Pack', val: '100 sheets' },
+          { key: 'Compatibility', val: 'GE Mac 2000' },
+          { key: 'Grid Type', val: 'Standard 1mm x 5mm grid' },
+          { key: 'Paper Type', val: 'Thermal paper' },
+        ],
+        features: ['GE Mac 2000 specific', 'High print clarity', 'Accurate grid lines', 'Long-lasting print', 'OEM quality'],
+        img: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=700&q=80'
+      },
+      'ecg-paper-3': {
+        specs: [
+          { key: 'Size', val: 'A4' },
+          { key: 'Sheets Per Pack', val: '200 sheets' },
+          { key: 'Compatibility', val: 'Cardiovit machines' },
+          { key: 'Grid Type', val: 'Standard medical grid' },
+          { key: 'Paper Type', val: 'Thermal paper' },
+        ],
+        features: ['Cardiovit compatible', 'A4 format', 'Clear grid printing', 'Smooth feed', 'Cost effective'],
+        img: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=700&q=80'
+      }
+    };
+
+    const DEFAULT_SPECS = {
+      specs: [
+        { key: 'Category', val: 'Medical Equipment' },
+        { key: 'Brand', val: 'Brothers India' },
+        { key: 'Quality', val: 'Premium' },
+        { key: 'Availability', val: 'In Stock' },
+        { key: 'Origin', val: 'India' },
+      ],
+      features: ['High quality materials', 'Certified for medical use', 'Competitive pricing', 'Pan-India delivery', 'After-sales support'],
+      img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=700&q=80'
+    };
+
+    const CATALOG = {
+      'ecg-roll': { title: 'ECG Paper Roll', products: [
+        { id: 'ecg-roll-1', name: '50mm ECG Paper Roll', desc: '50mm thermal paper roll for standard ECG machines' },
+        { id: 'ecg-roll-2', name: '63mm ECG Paper Roll', desc: '63mm thermal paper roll for wide-format ECG machines' },
+        { id: 'ecg-roll-3', name: '80mm ECG Paper Roll', desc: '80mm thermal paper roll compatible with most brands' },
+        { id: 'ecg-roll-4', name: '210mm ECG Paper Roll', desc: '210mm wide thermal paper roll for multi-channel ECG' },
+      ]},
+      'ecg-paper': { title: 'ECG Paper', products: [
+        { id: 'ecg-paper-1', name: 'GE Mac 2000 ECG Paper', desc: 'Original quality paper for GE Mac 2000 ECG machines' },
+        { id: 'ecg-paper-2', name: 'Comfortable TC20 ECG Paper', desc: 'Comfortable brand TC20 ECG paper with superior quality' },
+        { id: 'ecg-paper-3', name: 'Cardiovit A4 Sheet ECG Paper', desc: 'A4 size ECG paper for Cardiovit machines' },
+      ]},
+      'cables': { title: 'Medical Cables', products: [
+        { id: 'cable-1', name: '10-Lead ECG Cable', desc: 'Universal 10-lead patient cable for ECG machines' },
+        { id: 'cable-2', name: 'SpO2 Sensor Cable', desc: 'Pulse oximetry sensor cable for patient monitors' },
+        { id: 'cable-3', name: 'NIBP Cuff Cable', desc: 'Non-invasive blood pressure cuff connection cable' },
+      ]},
+      'testkits': { title: 'Test Kits', products: [
+        { id: 'kit-1', name: 'MaxLine HBsAg Test Kit', desc: 'Rapid test for Hepatitis B surface antigen detection' },
+        { id: 'kit-2', name: 'Malaria Rapid Test Kit', desc: 'Fast and accurate malaria antigen detection kit' },
+        { id: 'kit-3', name: 'Dengue NS1 Test Kit', desc: 'Early detection test kit for dengue NS1 antigen' },
+      ]},
+      'analyzers': { title: 'Hematology Analyzers', products: [
+        { id: 'ana-1', name: '3-Part Hematology Analyzer', desc: 'Entry-level analyzer with 3-part WBC differential' },
+        { id: 'ana-2', name: '5-Part Hematology Analyzer', desc: 'Advanced analyzer with 5-part WBC differential' },
+        { id: 'ana-3', name: 'Portable CBC Analyzer', desc: 'Compact portable analyzer for point-of-care testing' },
+      ]},
+      'reagents': { title: 'Medical Reagents', products: [
+        { id: 'rea-1', name: 'MaxLYTE Daily Cleaning Solution', desc: 'For electrolyte analyzers - daily cleaning solution' },
+        { id: 'rea-2', name: 'Hematology Analyzer Reagents', desc: 'Complete set of diluent, lyse, and rinse reagents' },
+      ]}
+    };
+
+    function loadDetail() {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('cat') || 'ecg-paper';
+      const id = params.get('id') || 'ecg-paper-2';
+      const name = decodeURIComponent(params.get('name') || 'Product');
+      const desc = decodeURIComponent(params.get('desc') || '');
+      const catname = decodeURIComponent(params.get('catname') || 'Products');
+
+      document.title = name + ' - Brothers India';
+      document.getElementById('prod-name').textContent = name;
+      document.getElementById('prod-desc').textContent = desc;
+      document.getElementById('bc-cat').textContent = catname;
+      document.getElementById('bc-cat').href = `product-category.html?cat=${cat}&name=${encodeURIComponent(catname)}`;
+      document.getElementById('bc-name').textContent = name;
+      document.getElementById('related-title').textContent = catname;
+
+      const specData = SPECS[id] || DEFAULT_SPECS;
+      document.getElementById('prod-img').src = specData.img;
+      document.getElementById('prod-img').alt = name;
+
+      const specRows = document.getElementById('spec-rows');
+      specRows.innerHTML = specData.specs.map(s => `
+        <div class="spec-row"><span class="key">${s.key}</span><span class="val">${s.val}</span></div>
+      `).join('');
+
+      const featureList = document.getElementById('feature-list');
+      featureList.innerHTML = specData.features.map(f => `<li>${f}</li>`).join('');
+
+      // Related
+      const catData = CATALOG[cat];
+      if (catData) {
+        const related = catData.products.filter(p => p.id !== id).slice(0, 3);
+        document.getElementById('related-grid').innerHTML = related.map(p => `
+          <div class="sub-product-card">
+            <h3>${p.name}</h3>
+            <p>${p.desc}</p>
+            <a href="product-detail.html?cat=${cat}&id=${p.id}&name=${encodeURIComponent(p.name)}&desc=${encodeURIComponent(p.desc)}&catname=${encodeURIComponent(catData.title)}" class="btn-view">View Details →</a>
+          </div>
+        `).join('');
+      }
+    }
+
+    loadDetail();
+  </script>
+</body>
+</html>
